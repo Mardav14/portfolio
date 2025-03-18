@@ -9,6 +9,8 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import django from "./tech/django.png";
+import flask from "./tech/flask.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,12 +23,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+
+import herbsMagic from "./company/herbsMagic.png";
+import AAI from "./company/AAI.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import aptiQuiz from "./aptiQuiz.png";
+import blogDog from "./blogDog.png";
+import ddos from "./ddos.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -40,6 +48,8 @@ export {
   menu,
   close,
   css,
+  django,
+  flask,
   docker,
   figma,
   git,
@@ -52,11 +62,16 @@ export {
   tailwind,
   typescript,
   threejs,
+  herbsMagic,
+  AAI,
   meta,
   shopify,
   starbucks,
   tesla,
   carrent,
+  aptiQuiz,
+  blogDog,
+  ddos,
   jobit,
   tripguide,
 };

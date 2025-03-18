@@ -12,14 +12,21 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  django,
+  flask,
   git,
   figma,
   docker,
+  herbsMagic,
+  AAI,
   meta,
   starbucks,
   tesla,
   shopify,
   carrent,
+  ddos,
+  blogDog,
+  aptiQuiz,
   jobit,
   tripguide,
   threejs,
@@ -46,7 +53,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI/ML Engineer",
     icon: mobile,
   },
   {
@@ -54,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Database Engineer",
     icon: creator,
   },
 ];
@@ -81,8 +88,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Django",
+    icon: django,
   },
   {
     name: "Tailwind CSS",
@@ -105,8 +112,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Flsk",
+    icon: flask,
   },
   {
     name: "docker",
@@ -116,57 +123,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Web Developer",
+    company_name: "Airport Authority of India, Govt. of India",
+    icon: AAI,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the Airport Module for AAI's Pradipti internship portal, integrating intern onboarding, performance tracking, and certification processes.",
+      "Focused on security, scalability, and seamless API interactions for efficient module functionality.",
     ],
+    link:"https://pradipti-frontend.netlify.app/"
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Frontend Developer",
+    company_name: "Herbs Magic",
+    icon: herbsMagic,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2024 - Dec 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and integrated a responsive frontend interface for an Image Scanning feature, enabling real-time skin and hair disease detection through live camera capture and image file upload.",
+      "Developed and integrated a frontend solution for an AI-powered chatbot assistant, facilitating dynamic interaction and query resolution related to company offerings and products.",
+      "Developed Flask backend, creating new API endpoints and webhooks to handle image processing and chatbot requests.",
     ],
+    link:"https://www.theherbsmagic.com/"
   },
+  
 ];
 
 const testimonials = [
@@ -198,33 +179,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AptiQuiz",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that hepls the user to prepare for cogmitive aptitude questions of various exams and interviews. User can appear for the test of their choice an a proper exam interface with countdown timer.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "django",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: aptiQuiz,
+    source_code_link: "https://aptiquiz.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Blog Dog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Website for posting and editing blogs with login based admin panel. User have to register and login to post blogs, everyone can read the posted blogs. MySQLite database for storage.",
     tags: [
       {
-        name: "react",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +213,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blogDog,
+    source_code_link: "https://github.com/Mardav14/BlogDog",
   },
   {
-    name: "Trip Guide",
+    name: "DDoS Attack Protection System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An Ensemble learning model using Random Forest and Artificial Neural Network (ANN) which can predict Distributed Denial of Service attacks with accuracy of 95.4%.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "pandas",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tensorflow",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ddos,
+    source_code_link: "https://github.com/Mardav14/DDoS_Protection_System",
   },
 ];
 

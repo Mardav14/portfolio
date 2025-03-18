@@ -52,6 +52,9 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <div className="mt-5 ml-5">
+      <a className='text-[20px] text-blue-400 font-bold' href={experience.link}>Website Link</a>
+      </div>
     </VerticalTimelineElement>
   );
 };
